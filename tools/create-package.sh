@@ -8,6 +8,10 @@ mkdir -p backend/client
 # Build frontend
 cd frontend
 export PUBLIC_PATH="/static/_nuxt/"
+
+git config --global url."https://github".insteadOf ssh://git@github
+git config --global url."https://github.com/".insteadOf git@github.com:
+
 yarn install
 yarn build
 cp -r dist ../backend/client/
