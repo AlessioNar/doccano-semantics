@@ -74,17 +74,9 @@ During development, you may want to create a Python package and verify it works 
 ./tools/create-package.sh
 ```
 
-This command builds the frontend, copies the files, and packages them. This will take a few minutes. After finishing the command, you will find sdist and wheel in backend/dist:
+This command builds the frontend, copies the files, and packages them. This will take a few minutes. After finishing the command, you will find the distribution and wheel in the dist folder
 
-```bash
-Building doccano (1.5.5.post335.dev0+6be6d198)
-  - Building sdist
-  - Built doccano-1.5.5.post335.dev0+6be6d198.tar.gz
-  - Building wheel
-  - Built doccano-1.5.5.post335.dev0+6be6d198-py3-none-any.whl
-```
-
-Then, you can install the package via pip install command:
+Then, you can install the package via pip install command, specifying the correct build:
 
 ```bash
 pip install doccano-1.5.5.post335.dev0+6be6d198-py3-none-any.whl
