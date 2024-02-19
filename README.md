@@ -10,6 +10,12 @@ Refer to the main doccano documentation at <https://doccano.github.io/doccano/>.
 
 ## Usage
 
+Clone the repository
+
+```
+git clone https://github.com/AlessioNar/doccano-semantics
+```
+
 To reproduce in your environment doccano-semantics you will need to rebuild the application from source.
 This version is reproducible in a Linux environment only.
 
